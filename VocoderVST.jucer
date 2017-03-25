@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="FE7zWk" name="VocoderVST" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.VocoderVST" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="1" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" pluginName="VocoderVST" pluginDesc="VocoderVST"
+              pluginManufacturer="yourcompany" pluginManufacturerCode="Manu"
+              pluginCode="Fe7z" pluginChannelConfigs="" pluginIsSynth="0" pluginWantsMidiIn="0"
+              pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="VocoderVSTAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.VocoderVST"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.3.0">
+  <MAINGROUP id="xzKRr5" name="VocoderVST">
+    <FILE id="o73HL6" name="Encoder70x70.png" compile="0" resource="1"
+          file="VocoLite GUI/Encoder70x70.png"/>
+    <FILE id="DnmLyB" name="LEDON.png" compile="0" resource="1" file="VocoLite GUI/LEDON.png"/>
+    <FILE id="uzBHaB" name="Slider.png" compile="0" resource="1" file="VocoLite GUI/Slider.png"/>
+    <FILE id="Zr4jIT" name="SliderHandle.png" compile="0" resource="1"
+          file="VocoLite GUI/SliderHandle.png"/>
+    <FILE id="R6ENHm" name="VocoLiteBackground.png" compile="0" resource="1"
+          file="VocoLite GUI/VocoLiteBackground.png"/>
+    <GROUP id="{051AEA62-0538-8CD1-023A-3622374F6141}" name="Source">
+      <FILE id="gWUAcJ" name="PluginAnalyser.cpp" compile="1" resource="0"
+            file="Source/PluginAnalyser.cpp"/>
+      <FILE id="YmTIWL" name="PluginAnalyser.h" compile="0" resource="0"
+            file="Source/PluginAnalyser.h"/>
+      <FILE id="mFDVJz" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="HWsZEp" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="taTUA1" name="PluginEnvelope.cpp" compile="1" resource="0"
+            file="Source/PluginEnvelope.cpp"/>
+      <FILE id="cFB9GT" name="PluginEnvelope.h" compile="0" resource="0"
+            file="Source/PluginEnvelope.h"/>
+      <FILE id="g0U2Ut" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Bt8LNZ" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2015 targetFolder="Builds/VisualStudio2015" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="VocoderVST"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="VocoderVST"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_video" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_opengl" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <VS2013 targetFolder="Builds/VisualStudio2013" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="VocoderVST"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="VocoderVST"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_video" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_opengl" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <VS2012 targetFolder="Builds/VisualStudio2012" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="VocoderVST"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="VocoderVST"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_video" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_opengl" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+      </MODULEPATHS>
+    </VS2012>
+    <VS2010 targetFolder="Builds/VisualStudio2010" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="VocoderVST"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="VocoderVST"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_events" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_graphics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_cryptography" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_video" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_opengl" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_basics" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_devices" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_formats" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_processors" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="C:\Users\Jake\Documents\Coding\JUCE 4.3.0\modules"/>
+      </MODULEPATHS>
+    </VS2010>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>

@@ -1,0 +1,68 @@
+﻿Build started 25/03/2017 19:39:48.
+     1>Project "C:\Users\Jake\Documents\Coding\VocoderVST\Builds\VisualStudio2013\VocoderVST.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(364,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Jake\Documents\Coding\JUCE 4.3.0\VST3 SDK" /I..\..\JuceLibraryCode /I..\..\JuceLibraryCode\modules /Zi /nologo /W4 /WX- /MP /Ox /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WINDOWS /D NDEBUG /D JUCER_VS2013_78A5020=1 /D JUCE_APP_VERSION=1.0.0 /D JUCE_APP_VERSION_HEX=0x10000 /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Release\\" /Fd"Release\\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Source\PluginEditor.cpp
+         PluginEditor.cpp
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(29): warning C4373: 'VocoderLookAndFeel::drawRotarySlider': virtual function overrides 'juce::LookAndFeel_V2::drawRotarySlider', previous versions of the compiler did not override when parameters only differed by const/volatile qualifiers
+                 c:\users\jake\documents\coding\vocodervst\jucelibrarycode\modules\juce_gui_basics\lookandfeel/juce_LookAndFeel_V2.h(204) : see declaration of 'juce::LookAndFeel_V2::drawRotarySlider'
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(32): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(33): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(34): warning C4244: 'initializing' : conversion from 'double' to 'const float', possible loss of data
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(30): warning C4100: 'slider' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(51): warning C4100: 'slider' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(51): warning C4100: 'style' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(51): warning C4100: 'maxSliderPos' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(51): warning C4100: 'minSliderPos' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(50): warning C4100: 'sliderPos' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(50): warning C4100: 'height' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(50): warning C4100: 'width' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(62): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(59): warning C4100: 'slider' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(59): warning C4100: 'style' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(59): warning C4100: 'maxSliderPos' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(59): warning C4100: 'minSliderPos' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(58): warning C4100: 'height' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(58): warning C4100: 'width' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(66): warning C4100: 'isButtonDown' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(66): warning C4100: 'isMouseOverButton' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(65): warning C4100: 'backgroundColour' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(72): warning C4100: 'isButtonDown' : unreferenced formal parameter
+     1>c:\users\jake\documents\coding\vocodervst\source\PluginEditor.h(72): warning C4100: 'isMouseOverButton' : unreferenced formal parameter
+     1>..\..\Source\PluginEditor.cpp(118): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>..\..\Source\PluginEditor.cpp(277): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\Image-Line\FL Studio 11\Plugins\VST\\VocoderVST.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"Release\\VocoderVST.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\Image-Line\FL Studio 11\Plugins\VST\VocoderVST.lib" /MACHINE:X86 /SAFESEH /DLL Release\resources.res
+         Release\\PluginEditor.obj
+         Release\\PluginEnvelope.obj
+         Release\\PluginProcessor.obj
+         Release\\BinaryData.obj
+         Release\\juce_audio_basics.obj
+         Release\\juce_audio_devices.obj
+         Release\\juce_audio_formats.obj
+         Release\\juce_audio_plugin_client_utils.obj
+         Release\\juce_audio_plugin_client_VST2.obj
+         Release\\juce_audio_plugin_client_VST3.obj
+         Release\\juce_audio_processors.obj
+         Release\\juce_core.obj
+         Release\\juce_cryptography.obj
+         Release\\juce_data_structures.obj
+         Release\\juce_events.obj
+         Release\\juce_graphics.obj
+         Release\\juce_gui_basics.obj
+         Release\\juce_gui_extra.obj
+         Release\\juce_opengl.obj
+         Release\\juce_video.obj
+            Creating library C:\Program Files (x86)\Image-Line\FL Studio 11\Plugins\VST\VocoderVST.lib and object C:\Program Files (x86)\Image-Line\FL Studio 11\Plugins\VST\VocoderVST.exp
+         Generating code
+         Finished generating code
+         VocoderVST.vcxproj -> C:\Program Files (x86)\Image-Line\FL Studio 11\Plugins\VST\VocoderVST.dll
+       PostBuildEvent:
+         copy /Y "C:\Program Files (x86)\Image-Line\FL Studio 11\Plugins\VST\VocoderVST.dll" "C:\Program Files (x86)\Image-Line\FL Studio 11\Plugins\VST\VocoderVST.vst3"
+         :VCEnd
+                 1 file(s) copied.
+     1>Done Building Project "C:\Users\Jake\Documents\Coding\VocoderVST\Builds\VisualStudio2013\VocoderVST.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.70
